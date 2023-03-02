@@ -3,6 +3,7 @@ from dash import Dash, html, dcc, Input, Output
 
 # App
 app = Dash(__name__)
+server = app.server
 # Layout
 app.layout = html.Div(children=[
     html.Div(
